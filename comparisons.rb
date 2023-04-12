@@ -23,24 +23,31 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
 # this should print: true
+puts "Is number_teachers less than number_students?", number_teachers < number_students
 
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
 # this should print: false
+puts "Is number_teachers equal to string_teachers?", number_teacher == string_teachers
 
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
 # this should print: true
+puts "Is number_teachers not equal to number_students?", number_teacher != number_students
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
 # this should print: true
+puts "Is number_students greater than or equal to 20?", number_students >= 20
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
 # this should print: false
+puts "Is number_students greater than or equal to 21?", number_students >= 21
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
 # this should print: true
+puts "Is number_students less than or equal to 20?", number_students <= 20
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
 # this should print: true
+puts "Is number_students less than or equal to 21?", number_students <= 21
 
 
 #-------------------
@@ -54,21 +61,24 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 
 puts 4 < 9
 #YOU DO: Explain.
+#This will return true because 4 is in fact less than 9.
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+#This will return false.  The variable books is set to integer 3, and 4 is not "less than" 3.
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+#This will return true.  As defined by the variables "friends" and "siblings", there are more friends than siblings, aka "greater than".
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
-
+#This will return true.  The number of attendees is "not equal to" number of meals.
 
 #-------------------
 # PART 3: Logical Operators
@@ -90,15 +100,23 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
+#Returns as true.
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
+#Returns as false.
+#What dog doesn't love the dog park?
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play && loves_dog_park
+#Returns as false.
 
 # Determine if the dog loves to play and is a puppy
+puts loves_to_play && age
+#Returns as integer 1.
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER:
+# The variable "age" is not set to a boolean value.  For the argument to return as true or fals both sides 
+# the operator && would have to be booleans.  
