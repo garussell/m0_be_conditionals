@@ -118,5 +118,6 @@ puts loves_to_play && age
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER:
-# The variable "age" is not set to a boolean value.  For the argument to return as true or fals both sides 
+# The variable "age" is not set to a boolean value.  For the argument to return as true or false both sides 
 # the operator && would have to be booleans.  
+# 

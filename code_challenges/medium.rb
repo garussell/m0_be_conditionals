@@ -19,6 +19,6 @@ if good_driving_record == true && age > 25
     puts "You qualify for a discount on your rental."
 elsif good_driving_record == true || age > 25
     puts "You can rent, but still should pay full price."
-elsif good_driving_record == false && age < 25
+else
     puts "You can't rent from us.  Is your mommy available?"
 end

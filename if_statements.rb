@@ -67,14 +67,21 @@ end
 cups_of_flour = 1
 has_sauce = true
 
+# Revised code per feedback.
 if cups_of_flour == 2 && has_sauce
-  puts "Its a pizza pie!"
-elsif cups_of_flour < 2 && has_sauce
-  puts "Add more flour and you're cooking!"
-elsif cups_of_flour < 2 && has_sauce == false
-  puts "Needs flour and that sauce."
-elsif cups_of_flour == 2 && has_sauce == false
-  puts "Good pizza needs good sauce."
-elsif cups_of_flour > 2
-  puts "Easy on the flour chef!"
+  puts "We can make pizza."
+else
+  puts "Needs more ingredients."
 end
+
+# if cups_of_flour == 2 && has_sauce
+#   puts "Its a pizza pie!"
+# elsif cups_of_flour < 2 && has_sauce
+#   puts "Add more flour and you're cooking!"
+# elsif cups_of_flour < 2 && has_sauce == false
+#   puts "Needs flour and that sauce."
+# elsif cups_of_flour == 2 && has_sauce == false
+#   puts "Good pizza needs good sauce."
+# elsif cups_of_flour > 2
+#   puts "Easy on the flour chef!"
+# end

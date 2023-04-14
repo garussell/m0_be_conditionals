@@ -9,7 +9,9 @@
 
 integer = 9
 
-if integer % 3 == 0 && integer % 5 == 0
+# if integer % 3 == 0 && integer % 5 == 0
+# simplified code per feedback
+if integer % 15 == 0
     puts "FizzBuzz"
 elsif integer % 3 == 0
     puts "Fizz"
